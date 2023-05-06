@@ -1,0 +1,74 @@
+.myWork {
+    background-color: #AE9AA2;
+}
+.myWork h1 {
+    text-align: center;
+    font-family: 'Content', sans-serif;
+}
+.workGrid {
+    display: grid;
+    grid-template-rows: auto auto; /* Adjust the rows as needed */
+    grid-template-columns: 1fr 1fr; /* Adjust the columns as needed */
+    gap: 20px;
+    grid-template-areas:
+        "item1 item3"
+        "item2 item4";
+}
+
+.workGrid > div {
+    padding: 20px;
+}
+
+.item1 {
+    grid-area: item1;
+    text-align: center;
+}
+
+.item2 {
+    grid-area: item2;
+    
+    
+}
+.item2 h4 {
+    text-align: center;
+    font-family: 'Content', sans-serif;
+}
+.item2 p {
+    font-family: 'Content', sans-serif;
+    text-align: justify;
+}
+
+
+.item3 {
+    grid-area: item3;
+    text-align: center;
+}
+
+
+.item4 {
+    grid-area: item4;
+    
+}
+.item4 h4 {
+    text-align: center;
+    font-family: 'Content', sans-serif;
+}
+.item4 p {
+    font-family: 'Content', sans-serif;
+    text-align: justify;
+}
+
+
+
+
+
+  
+  
+  
+
+ 
+
+
+
+ 
+  

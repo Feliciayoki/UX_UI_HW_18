@@ -1,0 +1,47 @@
+  .mySkills {
+    margin: 20px;
+    background-color: #AE9AA2;
+  }
+.mySkills h1 {
+    font-family:'Content', sans-serif;
+    text-align: center;
+}
+  
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #AE9AA2;
+  }
+  
+  .flexChild {
+    width: calc(28% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+
+  }
+  
+  .flexChild img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .flexChild h3 {
+    font-family: 'Content', sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+  
+  .flexChild p {
+    font-family: 'content', sans-serif;
+    color: black;
+    font-size: 14px;
+    text-align: justify;
+  }
+
+ 
+  
